@@ -37,6 +37,7 @@ In order to gain performance improvements:
 1. Computation should be independent, the less sync with main thread, the performance is better.
 2. Multiple CPU are used to improve performance, could not be used for energe saving
 3. The development and debugging could be harder.
+
 ##Notes
 1. all the computation and multi thead logic are in TestComputation.cpp
 2. MULTITHEAD ＝ 0 single thread, MULTITHEAD＝1 one work thread MULTITHEAD＝2 two worker thread
